@@ -30,10 +30,10 @@ public class RectangleProcessor {
     }
 
     private static boolean isContained(Rectangle rect1, Rectangle rect2) {
-        return rect1.getLowerLeft().getX() < rect2.getLowerLeft().getX() &&
-                rect1.getUpperRight().getX() > rect2.getUpperRight().getX() &&
-                rect1.getLowerLeft().getY() < rect2.getLowerLeft().getY() &&
-                rect1.getUpperRight().getY() > rect2.getUpperRight().getY();
+        return rect1.getLowerLeft().getX() <= rect2.getLowerLeft().getX() &&
+                rect1.getUpperRight().getX() >= rect2.getUpperRight().getX() &&
+                rect1.getLowerLeft().getY() <= rect2.getLowerLeft().getY() &&
+                rect1.getUpperRight().getY() >= rect2.getUpperRight().getY();
     }
 
     private static boolean isIntersecting(Rectangle rect1, Rectangle rect2) {
