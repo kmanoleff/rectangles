@@ -41,8 +41,8 @@ public class RectangleTests {
     // verify "intersecting" rectangles
     @Test
     public void testIntersection() {
-        Rectangle rect1 = new Rectangle(0,0,8,8);
-        Rectangle rect2 = new Rectangle(7,7,10,10);
+        Rectangle rect1 = new Rectangle(0,0,8,6);
+        Rectangle rect2 = new Rectangle(4,5,11,8);
         Assert.assertEquals(
                 "Rectangle intersection",
                 "The two rectangles are intersecting.",
@@ -53,8 +53,8 @@ public class RectangleTests {
     // verify "adjacent" rectangles
     @Test
     public void testAdjacency() {
-        Rectangle rect1 = new Rectangle(0,0,8,8);
-        Rectangle rect2 = new Rectangle(0,8,10,10);
+        Rectangle rect1 = new Rectangle(0,0,7,3);
+        Rectangle rect2 = new Rectangle(7,0,9,6);
         Assert.assertEquals(
                 "Rectangle adjacency",
                 "The two rectangles are adjacent.",
