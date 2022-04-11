@@ -17,7 +17,7 @@ To build this app locally :
 - navigate to the root of the project
 - run `gradle test` - this will run the unit tests (see Unit Tests below)
 - run `gradle jar` to create the build folder with the .jar file
-- execute the program using `java -jar build/libs/rectangles-1.0.jar "0" "0" "1" "1" "2" "2" "4" "4"` where `1.0.0` is
+- execute the program using `java -jar build/libs/rectangles-1.0.0.jar "0" "0" "1" "1" "2" "2" "4" "4"` where `1.0.0` is
 the current version number and the 8 values describe the rectangles (see Input above)
 
 # Unit Tests
