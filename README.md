@@ -6,7 +6,7 @@ Java app to analyze rectangle relationships.  Determine if :
 - the rectangles are adjacent, meaning sharing a side
 
 # Input
-- The input  be a set of 8 integers defining the two rectangles.  The first 4 represent the first triangle, the last 4 
+- The input should be a set of 8 integers defining the two rectangles.  The first 4 represent the first triangle, the last 4 
 the second triangle.  Each rectangle has a pair of (x,y) coordinates representing the lower left corner and the upper 
 right corner.
 
