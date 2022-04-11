@@ -35,13 +35,9 @@ using `gradle test` or individually using, for example, `gradle test --tests Inp
 example the upper right corner is lower than the lower left, etc.
 - `testContainment` test when one rectangle is wholly contained within another.  In this example rectangle 1 has lower left
 coordinate of (0,0) and upper right of (8,6).  Rectangle 2 has coordinates of (1,1) and (6,4) so all points of rectangle 2 are
-contained within rectangle 1.
-<img src="/src/main/resources/containment.png" width="200" height="200">
+contained within rectangle 1. <img src="/src/main/resources/containment.png" width="200" height="200">
 - `testIntersection` test when the rectangles are intersecting.  In this example rectangle 1 has coordinates of (0,0) and (8,8).
-Rectangle 2 has coordinates of (7,7) and (10,10).  There are only some points of the two rectangles that intersect.
-<img src="/src/main/resources/intersection.png" width="200" height="200">
+Rectangle 2 has coordinates of (7,7) and (10,10).  There are only some points of the two rectangles that intersect. <img src="/src/main/resources/intersection.png" width="200" height="200">
 - `testAdjacency` test when the rectangles are not contained or intersecting but they do share a side.  In this example
-rectangle 1 - (0,0) (7,3) - and rectangle 2 - (7,0) (9,6) - share the side at the x-axis 7.
-<img src="/src/main/resources/adjacency.png" width="200" height="200">
-- `testNoCondition` - test when no conditions are met.  These two rectangles have none of the above relationships.
-<img src="/src/main/resources/no-relation.png" width="200" height="200">
+rectangle 1 - (0,0) (7,3) - and rectangle 2 - (7,0) (9,6) - share the side at the x-axis 7. <img src="/src/main/resources/adjacency.png" width="200" height="200">
+- `testNoCondition` - test when no conditions are met.  These two rectangles have none of the above relationships. <img src="/src/main/resources/no-relation.png" width="200" height="200">
