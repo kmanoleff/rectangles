@@ -23,7 +23,7 @@ the current version number and the 8 values describe the rectangles (see Input a
 There were several unit tests created that would help to ensure proper functionality.  Tests can be run across the app
 using `gradle test` or individually using, for example, `gradle test --tests InputValidationTests.testProcessValidInput`
 
-[`InputValidationTests`](https://github.com/kmanoleff/rectangles/blob/master/src/test/java/InputValidationTests.java)
+[`**InputValidationTests**`](https://github.com/kmanoleff/rectangles/blob/master/src/test/java/InputValidationTests.java)
 
 `testProcessValidInput` a valid input would be 8 integers so this test makes sure the inputs can all be cast as such
 
@@ -31,7 +31,7 @@ using `gradle test` or individually using, for example, `gradle test --tests Inp
 
 `testNonIntegerProvided` verifies a scenario is address if something other than numbers are provided, avoids operation errors, etc.
 
-[`RectangleTests`](https://github.com/kmanoleff/rectangles/blob/master/src/test/java/RectangleTests.java)
+[`**RectangleTests**`](https://github.com/kmanoleff/rectangles/blob/master/src/test/java/RectangleTests.java)
 `testRectangleCreation` verifies that a rectangle object is created and mapped to the coordinates correctly
 `testNotARectangle` verifies a scenario is address where the input can't possibly represent a rectangle, for
 example the upper right corner is lower than the lower left, etc.
