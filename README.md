@@ -24,18 +24,19 @@ the current version number and the 8 values describe the rectangles (see Input a
 There were several unit tests created that would help to ensure proper functionality.  Tests can be run across the app
 using `gradle test` or individually using, for example, `gradle test --tests InputValidationTests.testProcessValidInput`
 
-**InputValidationTests**
+[`InputValidationTests`](https://github.com/kmanoleff/rectangles/blob/master/src/test/java/InputValidationTests.java)
 - `testProcessValidInput` a valid input would be 8 integers so this test makes sure the inputs can all be cast as such
 - `testNotEnoughCoordinates` verifies a scenario is addressed if less than 8 integers are provided, avoid out of bounds exception, etc
 - `testNonIntegerProvided` verifies a scenario is address if something other than numbers are provided, avoids operation errors, etc.
 
-**RectangleTests**
+[`RectangleTests`](https://github.com/kmanoleff/rectangles/blob/master/src/test/java/RectangleTests.java)
 - `testRectangleCreation` verifies that a rectangle object is created and mapped to the coordinates correctly
 - `testNotARectangle` verifies a scenario is address where the input can't possibly represent a rectangle, for
 example the upper right corner is lower than the lower left, etc.
 - `testContainment` test when one rectangle is wholly contained within another.  In this example rectangle 1 has lower left
 coordinate of (0,0) and upper right of (8,6).  Rectangle 2 has coordinates of (1,1) and (6,4) so all points of rectangle 2 are
 contained within rectangle 1.
+<img src="/src/main/resources/containment.png" width="350" height="400">
 - `testIntersection` test when the rectangles are intersecting.  In this example rectangle 1 has coordinates of (0,0) and (8,8).
 Rectangle 2 has coordinates of (7,7) and (10,10).  There are only some points of the two rectangles that intersect.
 - `testAdjacency` test when the rectangles are not contained or intersecting but they do share a side.  In this example
