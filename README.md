@@ -1,7 +1,7 @@
 # Rectangles
 Java app to analyze rectangle relationships.  Determine if :
-- the rectangles have one or more intersecting lines; or
 - one rectangle is wholly contained within the other; or
+- the rectangles partially intersect or overlap; or
 - the rectangles are adjacent, meaning sharing a side
 
 # Input
