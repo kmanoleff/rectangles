@@ -50,7 +50,7 @@ Rectangle 2 has coordinates of (4,5) and (11,8).  There are only some points of 
 <img src="/src/main/resources/intersection.png" width="200" height="200">
 
 `testAdjacency` test when the rectangles are not contained or intersecting but they do share a side.  In this example
-rectangle 1 - (0,0) (7,3) - and rectangle 2 - (7,0) (9,6) - share the side at the x-axis 7.
+rectangle 1 - (0,0) (7,3) - and rectangle 2 - (7,0) (9,6) - share the right and left sides, respectively.
 
 <img src="/src/main/resources/adjacency.png" width="200" height="200">
 
