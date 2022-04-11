@@ -24,8 +24,11 @@ There were several unit tests created that would help to ensure proper functiona
 using `gradle test` or individually using, for example, `gradle test --tests InputValidationTests.testProcessValidInput`
 
 [`InputValidationTests`](https://github.com/kmanoleff/rectangles/blob/master/src/test/java/InputValidationTests.java)
+
 `testProcessValidInput` a valid input would be 8 integers so this test makes sure the inputs can all be cast as such
+
 `testNotEnoughCoordinates` verifies a scenario is addressed if less than 8 integers are provided, avoid out of bounds exception, etc
+
 `testNonIntegerProvided` verifies a scenario is address if something other than numbers are provided, avoids operation errors, etc.
 
 [`RectangleTests`](https://github.com/kmanoleff/rectangles/blob/master/src/test/java/RectangleTests.java)
