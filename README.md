@@ -45,7 +45,7 @@ contained within rectangle 1.
 <img src="/src/main/resources/containment.png" width="200" height="200">
 
 `testIntersection` test when the rectangles are intersecting.  In this example rectangle 1 has coordinates of (0,0) and (8,6).
-Rectangle 2 has coordinates of (7,7) and (10,10).  There are only some points of the two rectangles that intersect.
+Rectangle 2 has coordinates of (4,5) and (11,8).  There are only some points of the two rectangles that intersect.
 
 <img src="/src/main/resources/intersection.png" width="200" height="200">
 
